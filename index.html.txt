@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bio</title>
+    <!-- Исправленное подключение иконок FontAwesome -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="profile-card">
+        <!-- Твоя аватарка с крестом в глазу (полная рабочая ссылка) -->
+        <img src="https://ibb.co" alt="Avatar" class="avatar">
+        
+        <!-- Твой никнейм -->
+        <h1 class="name">stwirrryx</h1> 
+        <!-- Твое описание -->
+        <p class="bio">сапчик,если ты зашел на сайт то подпишись на тгк пожалуйста 👇</p>
+
+        <!-- Блок со ссылками -->
+        <div class="links-container">
+            <a href="https://t.me" target="_blank" class="link-card style-tg">
+                <i class="fab fa-telegram-plane"></i>
+                <span>Telegram</span>
+            </a>
+            
+            <a href="https://youtube.com" target="_blank" class="link-card style-yt">
+                <i class="fab fa-youtube"></i>
+                <span>YouTube</span>
+            </a>
+            
+            <a href="https://tiktok.com" target="_blank" class="link-card style-tt-1">
+                <i class="fab fa-tiktok"></i>
+                <span>TikTok (Основной)</span>
+            </a>
+
+            <a href="https://tiktok.com" target="_blank" class="link-card style-tt-2">
+                <i class="fab fa-tiktok"></i>
+                <span>TikTok (Второй)</span>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
